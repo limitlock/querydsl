@@ -67,7 +67,7 @@ public class App {
 				join(book.category, category).
 				on(category.name.like("%자%")).
 				list(book);
-
+ 
 		for (Book book : list) {
 			System.out.println(book);
 		}
